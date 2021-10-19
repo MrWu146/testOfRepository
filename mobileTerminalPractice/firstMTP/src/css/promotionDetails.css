@@ -1,0 +1,133 @@
+html,
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #ebeaef;
+        width: 7.5rem;
+        height: 12.8rem;
+    }
+    li {
+        list-style: none;
+    
+    }
+    .btn-head{
+        background-color: #5076b7;
+        color: white;
+        font-size: 0.6rem;
+        border: #5076b7;
+        
+    }
+    header {
+        height: 0.88rem;
+        width: 7.5rem;
+        background-color: #5076b7;
+        display: flex;
+        justify-content:start;/*横 弹性项目居中紧挨着填充。（如果剩余的自由空间是负的，则弹性项目将在两个方向上同时溢出） */
+        align-items: center;
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 7.5rem;
+    }
+    header p {
+        margin: auto;
+        color: white;
+        font-size: 0.4rem;
+        align-items: center;
+    }
+
+    .containerFirst ul {
+        /* background-color: bisque; */
+        /* margin-top: -1rem; */
+        display: flex;
+        /* height: 6.49rem; */
+        margin-bottom: 0px;
+        padding: 0px;
+        margin:0px;
+    }
+
+    li p {
+        margin-left: 0.14rem;
+        font-family: Microsoft Yahei;
+    } 
+
+    .containerFirst {
+        margin-top: 1.316rem;
+        margin: auto;
+        /* background-color: #5076b7; */
+        display: flex;
+        flex-direction: column;
+        /* 设置子元素纵向排列 */
+        height: 3.02rem;
+        width: 6rem;
+    }
+
+    .containerFirst li {
+        background-color: white;
+        margin: 0.5px;
+        display: flex;
+        align-items: center;
+    }
+    .containerFirst:nth-of-type(1) {
+        margin-top: 0.38rem;
+        height: 2.78rem;
+        
+    }
+    .containerFirst:nth-of-type(2) {
+        margin-top: 1.38rem;
+        height: 3.3rem;
+    }
+    .containerFirst:nth-of-type(3) {
+       
+        height: 2.3rem;
+    }
+    .containerFirst ul:nth-of-type(1) {
+        margin-top :0.016em;
+    }
+    .containerFirst li:nth-of-type(1) {
+        width: 2.7rem;
+        height: 0.78rem;
+        font-size: 0.24rem;
+        color: rgba(153, 153, 153, 100);
+    }
+
+    .containerFirst li:nth-of-type(2) {
+        width: 4.22rem;
+        height: 0.78rem;
+        font-size: 0.26rem;
+        color: rgba(51, 51, 51, 100);
+    }
+
+    .li-left-last{
+        height: 0.82rem!important;
+    }
+    .li-right-last{
+        height: 0.82rem!important;
+    }
+    .p-blue{
+        color: #5271bd !important;
+        font-family: Arial!important;
+    }
+    .p-red{
+        color: red!important;
+        font-weight:900;
+    }
+    .container-btn{
+        display: flex;
+        justify-content: center;
+        width: 7.5rem;
+    }
+    .btn-del{
+        margin-top: 1rem;
+        border-radius: 0.1rem;
+        border:  0.02rem solid#1AAD19;
+        width:4.22rem ;
+        height: 0.816rem;
+        background-color: #1AAD19 ;
+        color: white;
+        font-size: 0.216rem;
+
+    }

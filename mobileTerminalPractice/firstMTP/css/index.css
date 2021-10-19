@@ -1,0 +1,117 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    /* width: 8.28rem; */
+    width: 7.5rem;
+    height: 12.8rem;
+    background-color: #ebeaef;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+header { 
+    height: 0.88rem;
+    width: 7.5rem;
+    background-color: #5076b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header p {
+    color: white;
+    font-size: 0.4rem;
+}
+main {
+
+    /* background-color: aqua; */
+    width: 7.5rem;
+    background-color: #ebeaef;
+    flex-direction: column;
+    display: flex;
+    height: 10.94rem;
+    align-items: center;
+}
+
+main>P {
+    font-size: 0.34rem;
+    color: rgb(128, 120, 120);
+}
+
+.container {
+    height: 1.82rem;
+    width: 7.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+
+.con-right {
+    justify-content: center;
+    display: flex;
+    height: 1.36rem;
+    width: 6.28rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container ul.first {
+    /* margin-left: 0.24rem; */
+    font-size: 0.34rem;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.48rem;
+    width: 5.7rem;
+
+}
+.container ul.second {
+    /* margin-left: 0.24rem; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    display: flex;
+    height: 0.88rem;
+    width: 5.7rem;
+}
+li.li-h {
+    display: flex;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #9bb99b;
+    border-radius: 15%;
+    margin-left: 0.24rem;
+}
+li.li-btn {
+    height: 0.48rem;
+    width: 2.2rem;
+    color: white;
+    background-color: #7fbaff;
+    border-radius: 0.08rem;
+    font-size: 0.26rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second li {
+    font-size: 0.26rem;
+    color: rgb(128, 120, 120);
+}
+.second li:nth-of-type(3){
+    margin-left: 1.7rem;
+    /* margin-top: ; */
+}
