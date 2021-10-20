@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    .a {
+        height: 80px;
+        width: 80px;
+        background-color: #aed8e6;
+        border-radius: 0px 80px;
+        box-shadow: 10px 10px 5px #858386;
+    }
+    .b {
+        height: 80px;
+        width: 80px;
+        background-color: red;
+        border-radius: 80px 0px 80px 0px;
+        box-shadow: 10px 10px 5px #858386;
+    }
+    .c {
+        height: 80px;
+        width: 80px;
+        background-color: black;
+        border-radius: 80px 0px 80px 0px;
+        box-shadow: 10px 10px 5px #858386;
+        
+    }
+    .d {
+        height: 80px;
+        width: 80px;
+        background-color: #ffbfcd;
+        border-radius: 0px 80px;
+        box-shadow: 10px 10px 5px #858386;
+    }
+    body {
+        height:50vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .windmillOne {
+        display: flex;
+        flex-direction: column;
+        animation: move 5s infinite;
+        animation-timing-function:linear;
+        /* animation-direction: alternate; */
+    }
+    .windmillFirst {
+        display: flex;
+        justify-content: center;
+        width: 180px;
+    }
+    .windmillSecond {
+        display: flex;
+        justify-content: center;
+        height:px;
+        width: 180px;
+    }
+    @keyframes move {
+        
+            0%{transform:rotate(0deg);}
+        
+            100%{transform:rotate(-360deg);}
+        
+    }
+    @keyframes moveBack {
+        
+        0%{transform:rotate(0deg);}
+    
+        100%{transform:rotate(-360deg);}
+    
+}
+    .windmillOne:hover
+{
+
+    animation: moveBack;
+}
+    /* .windmillOne:hover
+{
+    animation-play-state:paused;
+} */
+</style>
+
+
+<div class="windmillOne">
+    <div class="windmillFirst">
+        <div class="a">
+        </div>
+        <div class="b">
+        </div>
+    </div>
+    <div class="windmillSecond">
+        <div class="c">
+        </div>
+        <div class="d">
+        </div>
+    </div>
+</div>
+
+<div class="windmillOne">
+    <div class="windmillFirst">
+        <div class="a">
+        </div>
+        <div class="b">
+        </div>
+    </div>
+    <div class="windmillSecond">
+        <div class="c">
+        </div>
+        <div class="d">
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+</html>
